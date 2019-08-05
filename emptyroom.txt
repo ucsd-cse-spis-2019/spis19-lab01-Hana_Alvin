@@ -1,0 +1,21 @@
+# state 0 with nothing N: go one step N
+1 x*** -> N 1   
+
+# state 0 with something to the N: go W + into st 1 
+1 N*W* -> W 2 
+
+
+# state 1 with nothing to the S: go one step S
+2 ***x -> S 2   
+
+# state 1 with something to the S: stay put + into state 0
+2 ***S -> x 1
+
+# state 0 with nothing to the E: go one step E
+0 *x** -> E 0
+
+# state 0 with something to the E and nothing to the S: go one step S
+0 *E*x -> S 0
+
+# state 0 with something to the E and S: stay put
+0 *E*S -> x 1
