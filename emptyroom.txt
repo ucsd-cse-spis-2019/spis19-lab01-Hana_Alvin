@@ -2,7 +2,7 @@
 1 x*** -> N 1   
 
 # state 0 with something to the N: go W + into st 1 
-1 N*W* -> W 2 
+1 N*x* -> W 2 
 
 
 # state 1 with nothing to the S: go one step S
